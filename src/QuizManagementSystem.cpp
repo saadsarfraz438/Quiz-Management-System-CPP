@@ -2,10 +2,15 @@
 #include <fstream>
 #include <string>
 using namespace std;
+
+// ================= QUESTION STRUCTURE =================
+
 struct Question
 {
 	  string question,a,b,c,d,correct;
 };
+
+// ================= ADD QUESTIONS =================
 
 void addQuestions(){  // To add questions to the file
     int mode;
@@ -41,6 +46,8 @@ void addQuestions(){  // To add questions to the file
     file.close(); //To Close the file
     cout<<"\nAll questions added successfully!\n";
 }
+
+// ================= TAKE QUIZ =================
 void takeQuiz(){// To attempt the quiz
     ifstream file("questions.txt"); 
     string question,a,b,c,d,correct,answer;
@@ -70,12 +77,18 @@ void takeQuiz(){// To attempt the quiz
     cout<<"\nQuiz Completed!\n";
     cout<<"Your Score: "<<score<<"out of "<<total<<endl;// Show final score
 }
+
+// ================= DELETE ALL QUESTIONS =================
+
 void deleteAllQuestions() {// To delete all questions
 
     ofstream file("questions.txt", ios::trunc); // clears the file
     file.close();
     cout<<"All questions deleted successfully.\n";
 }
+
+// ================= MAIN FUNCTION =================
+
 int main() { 
     int choice;
     do {
