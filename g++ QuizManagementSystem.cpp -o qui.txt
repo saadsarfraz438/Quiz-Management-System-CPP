@@ -1,3 +1,0 @@
-g++ "QuizManagementSystem.cpp" -o quiz.exe
-quiz.exe
-pause
