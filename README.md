@@ -1,3 +1,4 @@
+quiz management system
 # Quiz Management System
 
 A modernized **Quiz Management System** developed in **C++** using **Programming Fundamentals** principles. This project allows users to take quizzes, manage questions, and calculate scores through an interactive system.
@@ -12,14 +13,6 @@ Originally developed as an academic project and later enhanced with improved str
 Quiz-Management-System/
 │── cpp-version/
 │     └── quiz.cpp
-│
-│── ui-version/
-│     ├── index.html
-│     ├── style.css
-│     ├── script.js
-│
-│── screenshots/
-│
 │── README.md
 │── LICENSE
 ```
@@ -36,12 +29,12 @@ Core Features
   
   ---
   
-## Enhanced Features (Planned)
-🔹 Improved console UI
-🔹 Better menu navigation
-🔹 User-friendly experience
-🔹 Organized project structure
-🔹 Future GUI/Web UI integration
+## Enhanced Features (Planned / Added)
+- Improved console UI
+- Better menu navigation
+- ser-friendly experience
+- rganized project structure
+- Future GUI/Web UI integration
 
 ---
 
@@ -49,14 +42,15 @@ Core Features
 - C++
 - File Handling
 - Dev-C++
+- QT framework
   
   ---
 
 ## How to Run
 #### Method 1: Compile Manually
-Open the project in a C++ IDE such as Dev-C++, online compiler, Code::Blocks, or Visual Studio.
-Compile the source code.
-Run the executable file.
+- Open the project in a C++ IDE such as Dev-C++, Code::Blocks, or Visual Studio.
+- Compile the source code.
+- Run the executable file.
 
 ---
 
@@ -67,6 +61,7 @@ This project helped strengthen concepts of:
 File Handling
 Logic Building
 Problem Solving
+User Interaction Design
 
 ---
 
@@ -77,6 +72,7 @@ Planned enhancements for this project:
  Graphical User Interface (GUI)
  Timer-based quiz system
  Admin panel for question management
+ Leaderboard / High Scores
 
 ---
  
@@ -84,7 +80,7 @@ Planned enhancements for this project:
 
 Saad Sarfraz
 BS Software Engineering Student
-- Reach out via:[![Twitter](https://img.shields.io/badge/Twitter-blue?logo=twitter)](https://x.com/Saadsarfraz438)
+Reach out via: [![Twitter](https://img.shields.io/badge/Twitter-blue?logo=twitter)](https://x.com/Saadsarfraz438)
 
 ---
 ## License
