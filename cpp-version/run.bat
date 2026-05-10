@@ -7,7 +7,7 @@ echo ==================================
 echo.
 
 echo Compiling project...
-g++ QuizManagementSystem.cpp -o QuizManagementSystem.exe
+g++ main.cpp -o QuizManagementSystem.exe
 
 if %errorlevel% neq 0 (
     echo.
